@@ -17,11 +17,8 @@
   top: 20%;
 }
 
+.slick-prev,
 .slick-next {
-  right: -100px;
-}
-
-.slick-prev {
   left: -100px;
 }
 
@@ -32,7 +29,6 @@
 .slick-prev::before {
   content: "<";
   font-size: 50px;
-  left: -50px;
 }
 .sliderImagesContainer {
   display: flex !important;

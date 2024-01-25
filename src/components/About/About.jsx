@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about_area">
+    <div className="aboutAarea">
       <h1>
         „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
         ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ

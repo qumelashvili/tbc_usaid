@@ -4,6 +4,14 @@ nav {
   align-items: center;
   background-color: #1a1e1f;
   padding: 20px 30px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  transition-property: all;
+  transition-duration: 150ms;
+  transition-timing-function: (cubic-bezier(0.445, 0.05, 0.55, 0.95));
+  animation-duration: 500ms;
 }
 
 nav img {
@@ -19,4 +27,13 @@ nav ul {
   color: #f4f4f4;
   letter-spacing: 1px;
   list-style-type: none;
+}
+
+.scrolled {
+  opacity: 0.8;
+  background-color: #212121;
+}
+
+.emptyDiv {
+  height: 80px;
 }

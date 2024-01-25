@@ -15,11 +15,11 @@ function Faq() {
     <div className="faq">
       <div className="faqHeader">
         <h1>ხშირად დასმული კითხვები</h1>
-        <a href="">ყველა კითხვა</a>
+        <a href="#">ყველა კითხვა</a>
       </div>
 
-      {faqData.map((item) => (
-        <div className="faqRow">
+      {faqData.map((item, index) => (
+        <div className="faqRow" key={index}>
           <div
             className="faqQuestion"
             onClick={() => toggleAnswerVisibility(item.id)}
