@@ -14,7 +14,7 @@ function CoursesCard(props) {
           </p>
         </div>
 
-        <div className="cardLlink">
+        <div className="cardLink">
           <i className="fa-solid fa-arrow-right"></i>
           <a href="">კურსის დეტალები</a>
         </div>
