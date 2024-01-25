@@ -1,0 +1,18 @@
+.coursesContainer {
+  padding: 40px 16%;
+  background-color: #161616;
+}
+
+.coursesContainer > p {
+  font-size: 24px;
+  color: #dbdbdb;
+  letter-spacing: 1px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}

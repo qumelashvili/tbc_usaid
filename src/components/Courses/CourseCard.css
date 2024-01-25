@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.card_info {
+.cardIinfo {
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -21,25 +21,25 @@
   font-weight: 200;
 }
 
-.card_info h1 {
+.cardIinfo h1 {
   font-weight: 300;
 
   font-size: 18px;
 }
 
-.card_info p {
+.cardIinfo p {
   margin-top: 20px;
   font-size: 14px;
   font-weight: 300;
 }
 
-.card_link {
+.card_Link {
   display: flex !important;
   align-items: center;
   gap: 10px;
 }
 
-.card_link a {
+.cardLlink a {
   font-size: 16px;
   color: #06b0f3;
   text-decoration: none;

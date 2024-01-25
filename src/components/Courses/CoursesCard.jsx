@@ -1,9 +1,11 @@
+import "./CourseCard.css";
+
 function CoursesCard(props) {
   return (
     <div className="card">
       <img src={props.image} alt="Course image" />
-      <div>
-        <div className="card_info">
+      <div className="cardIinfo">
+        <div>
           <h1>{props.courseName}</h1>
           <p>
             {props.registrationStatus
@@ -12,8 +14,8 @@ function CoursesCard(props) {
           </p>
         </div>
 
-        <div className="card_link">
-          <i></i>
+        <div className="cardLlink">
+          <i className="fa-solid fa-arrow-right"></i>
           <a href="">კურსის დეტალები</a>
         </div>
       </div>
