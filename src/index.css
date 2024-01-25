@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "bpgWeb001";
+
+  src: url("./fonts/bpgWeb001.ttf") format("truetype");
+  /* Add other formats if necessary (e.g., woff, woff2) for better browser compatibility */
+}
 body {
   margin: 0;
   padding: 0;
