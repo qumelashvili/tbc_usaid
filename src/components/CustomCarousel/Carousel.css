@@ -1,0 +1,46 @@
+.carousel {
+  padding: 50px 16% 100px;
+  background-color: #2b2b2a;
+}
+
+.carousel h1 {
+  font-size: 24px;
+  color: #f4f4f4;
+  font-weight: 400;
+}
+
+.slider {
+  margin-top: 70px;
+}
+
+.slick-arrow {
+  top: 20%;
+}
+
+.slick-next {
+  right: -100px;
+}
+
+.slick-prev {
+  left: -100px;
+}
+
+.slick-next::before {
+  content: ">";
+  font-size: 50px;
+}
+.slick-prev::before {
+  content: "<";
+  font-size: 50px;
+  left: -50px;
+}
+.sliderImagesContainer {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+
+.sliderImagesContainer img {
+  max-width: 250px;
+}
