@@ -27,7 +27,7 @@ function Navbar() {
           <ul>
             <li>მთავარი</li>
             <li>TBC IT</li>
-            <li>TBC x USAID</li>
+            <li className="active">TBC x USAID</li>
             <li>რისკები</li>
           </ul>
         </div>

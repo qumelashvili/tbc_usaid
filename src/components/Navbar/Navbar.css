@@ -37,3 +37,7 @@ nav ul {
 .emptyDiv {
   height: 80px;
 }
+
+.active {
+  color: #06b0f3;
+}
