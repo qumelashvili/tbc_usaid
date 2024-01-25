@@ -3,4 +3,20 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #1a1e1f;
+  padding: 20px 30px;
+}
+
+nav img {
+  width: 182px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #f4f4f4;
+  letter-spacing: 1px;
+  list-style-type: none;
 }
