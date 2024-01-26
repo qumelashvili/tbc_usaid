@@ -20,6 +20,12 @@
   text-decoration: none;
 }
 
+.aboutArea a:hover {
+  color: #aaaaaa;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition-duration: 300ms;
+}
+
 @media screen and (max-width: 600px) {
   .aboutArea {
     padding: 10px;

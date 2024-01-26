@@ -42,6 +42,13 @@ nav ul {
   color: #06b0f3;
 }
 
+nav li:hover {
+  color: #06b0f3;
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition-duration: 300ms;
+}
+
 @media screen and (max-width: 600px) {
   nav img {
     display: none;

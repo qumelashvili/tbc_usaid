@@ -44,6 +44,12 @@
   text-decoration: none;
 }
 
+.cardLink a:hover {
+  color: #0080b0;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition-duration: 300ms;
+}
+
 .cardLink i {
   color: #06b0f3;
 }
