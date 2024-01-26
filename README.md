@@ -10,7 +10,7 @@ TBC x USAID React Test Assigment.
 - [Deployment](#deployment)
 - [Built With](#built-with)
 - [License](#license)
-- [Author] (#author)
+- [Author](#author)
 
 ## Getting Started
 
