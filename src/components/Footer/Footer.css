@@ -43,3 +43,40 @@ footer ul {
 .footerIcons img {
   width: 39px;
 }
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 30px 20px;
+  }
+  footer img {
+    width: 80px;
+  }
+  footer ul {
+    font-size: 12px;
+    justify-content: space-between;
+  }
+  .footerLinks button {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .footerIcons img {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  footer {
+    padding: 30px;
+  }
+
+  footer ul {
+    font-size: 14px;
+  }
+  .footerLinks button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .footerIcons img {
+    width: 39px;
+  }
+}

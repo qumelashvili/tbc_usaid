@@ -1,9 +1,9 @@
-.aboutAarea {
+.aboutArea {
   padding: 50px 16%;
   background-color: #2b2b2b;
 }
 
-.aboutAarea h1 {
+.aboutArea h1 {
   padding: 20px 0px;
   color: #f4f4f4;
   font-size: 28px;
@@ -12,10 +12,33 @@
   font-weight: 350;
 }
 
-.aboutAarea a {
+.aboutArea a {
   font-size: 20px;
   font-weight: bold;
   color: #06b0f3;
   padding: 20px 0;
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutArea {
+    padding: 10px;
+  }
+  .aboutArea h1 {
+    font-size: 16px;
+    padding: 0;
+  }
+  .aboutArea a {
+    padding: 0px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  .aboutArea {
+    padding: 5px 30px;
+  }
+  .aboutArea a {
+    font-size: 22px;
+  }
 }

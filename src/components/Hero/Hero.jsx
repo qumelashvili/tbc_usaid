@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="hero">
       <img src={HeroImg} alt="" />
-      <div className="heroTtext">
+      <div className="heroText">
         <h1>TBC x USAID</h1>
         <p>ტექნოლოგიური განათლებისთვის</p>
       </div>

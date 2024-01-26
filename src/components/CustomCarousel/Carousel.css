@@ -40,3 +40,39 @@
 .sliderImagesContainer img {
   max-width: 250px;
 }
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .slider {
+    margin-bottom: 30px;
+  }
+  .carousel h1 {
+    font-size: 20px;
+  }
+  .sliderImagesContainer {
+    gap: 20px;
+  }
+  .sliderImagesContainer img {
+    width: 80px;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  .sliderImagesContainer {
+    gap: 40px;
+  }
+  .carousel {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .sliderImagesContainer img {
+    width: 150px;
+  }
+}

@@ -7,7 +7,7 @@
   height: 370px;
   object-fit: cover;
 }
-.heroTtext {
+.heroText {
   font-weight: bolder;
   position: absolute;
   top: 100px;
@@ -15,13 +15,28 @@
   color: #f4f4f4;
 }
 
-.heroTtext h1 {
+.heroText h1 {
   font-size: 42px;
   letter-spacing: 1px;
 }
 
-.heroTtext p {
+.heroText p {
   font-family: "bpgWeb001", sans-serif;
   font-size: 34px;
   letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 600px) {
+  .heroText h1 {
+    font-size: 25px;
+  }
+  .heroText p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  .heroText p {
+    font-size: 24px;
+  }
 }

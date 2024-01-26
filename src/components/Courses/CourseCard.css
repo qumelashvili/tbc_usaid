@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.cardIinfo {
+.cardInfo {
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -21,12 +21,12 @@
   font-weight: 200;
 }
 
-.cardIinfo h1 {
+.cardInfo h1 {
   font-weight: 300;
   font-size: 18px;
 }
 
-.cardIinfo p {
+.cardInfo p {
   margin-top: 20px;
   font-size: 14px;
   font-weight: 300;
@@ -46,4 +46,21 @@
 
 .cardLink i {
   color: #06b0f3;
+}
+
+@media screen and (max-width: 600px) {
+  .cardInfo {
+    height: 200px;
+    padding: 10px 10px 20px 10px;
+  }
+  .cardInfo h1 {
+    font-size: 16px;
+  }
+  .cardInfo p {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .cardLink a {
+    font-size: 14px;
+  }
 }

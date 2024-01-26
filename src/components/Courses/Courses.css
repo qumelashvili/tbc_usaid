@@ -16,3 +16,19 @@
   gap: 30px;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 600px) {
+  .cardsContainer {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  .coursesContainer > p {
+    text-align: center;
+    font-size: 26px;
+  }
+  .cardsContainer {
+    justify-content: center;
+  }
+}

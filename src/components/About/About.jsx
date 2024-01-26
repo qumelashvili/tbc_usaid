@@ -2,7 +2,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="aboutAarea">
+    <div className="aboutArea">
       <h1>
         „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
         ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ
@@ -11,7 +11,7 @@ function About() {
         წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა
         და მის პარტნიორ კომპანიებში.
       </h1>
-      <a href="" className="text-[20px] font-bold text-[#06b0f3] py-[20px]">
+      <a href="#" className="text-[20px] font-bold text-[#06b0f3] py-[20px]">
         გაიგე მეტი
       </a>
     </div>

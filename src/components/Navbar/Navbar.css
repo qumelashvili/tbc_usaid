@@ -41,3 +41,31 @@ nav ul {
 .active {
   color: #06b0f3;
 }
+
+@media screen and (max-width: 600px) {
+  nav img {
+    display: none;
+  }
+  nav ul {
+    gap: 10px;
+    position: relative;
+    font-size: 12px;
+    padding: 0;
+  }
+  nav {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+  nav {
+    padding: 20px 10px;
+  }
+  nav img {
+    width: 120px;
+  }
+  nav ul {
+    gap: 10px;
+    font-size: 12px;
+  }
+}
