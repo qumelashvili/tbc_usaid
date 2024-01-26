@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Carousel.css";
 
 function Carousel(props) {
-  const maxImagesPerRow = 3;
+  const maxImagesPerRow = 3; // Set images count in div
 
-  const imageGroups = [];
+  const imageGroups = []; // Locate grouped images
   for (let i = 0; i < props.imageSources.length; i += maxImagesPerRow) {
     const rowImages = props.imageSources.slice(i, i + maxImagesPerRow);
     imageGroups.push(rowImages);

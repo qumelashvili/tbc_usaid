@@ -3,7 +3,7 @@ import faqData from "./data/faqData";
 import "./Faq.css";
 
 function Faq() {
-  const [visibleQuestion, setVisibleQuestion] = useState();
+  const [visibleQuestion, setVisibleQuestion] = useState(); // Store questionID
 
   const toggleAnswerVisibility = (questionId) => {
     setVisibleQuestion((prevVisibleQuestion) =>

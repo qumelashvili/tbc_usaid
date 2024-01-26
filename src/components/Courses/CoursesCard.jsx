@@ -16,7 +16,7 @@ function CoursesCard(props) {
 
         <div className="cardLink">
           <i className="fa-solid fa-arrow-right"></i>
-          <a href="">კურსის დეტალები</a>
+          <a href="#">კურსის დეტალები</a>
         </div>
       </div>
     </div>
