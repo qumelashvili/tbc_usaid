@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <>
       <div className="emptyDiv"></div>{" "}
-      {/* Empty div with nav height because navbar fixed position */}
+      {/* Empty div with,  same nav height, because navbar fixed position */}
       <nav className={isScrolled ? "scrolled" : ""}>
         <img src={NavLogo} alt="TBC x USAID logo" />
         <div>
